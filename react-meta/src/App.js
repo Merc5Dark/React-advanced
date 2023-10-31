@@ -1,8 +1,14 @@
 import React from 'react';
+import Card from './components/Card';
 
 function App() {
     return (
-        <h2>Hello meta</h2>
+        <div>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+        </div>
     )
 }
 
